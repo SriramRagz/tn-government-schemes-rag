@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# API keys and credentials
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs and caches
+*.log
+logs/
+.pytest_cache/
+.coverage
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local data (we will selectively publish safe sample data)
+data/raw/
+data/processed/
